@@ -18,6 +18,9 @@ header{
     width: 80%;
     top: 0;
     background-color: #fff;
+    @include mq(sm){
+        width: 100%;
+    }
     h1{
         text-decoration: underline;
         font-size: 3rem;
